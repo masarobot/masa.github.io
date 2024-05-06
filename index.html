@@ -76,10 +76,10 @@
               <span class="author-block">
                 <a href="http://www2.informatik.uni-freiburg.de/~yan/">Shengchao Yan</a><sup>1</sup>,</span>
               <span class="author-block">
-                <a href="https://nr.informatik.uni-freiburg.de/people/yuan-zhang">Yuan Zhang</a><sup>1</sup>,</span>
-              <span class="author-block">
                 <a href="https://baohezhang.com/">Baohe Zhang</a><sup>1</sup>,
               </span>
+              <span class="author-block">
+                <a href="https://nr.informatik.uni-freiburg.de/people/yuan-zhang">Yuan Zhang</a><sup>1</sup>,</span>
               <span class="author-block">
                 <a href="https://nr.informatik.uni-freiburg.de/people/joschka-boedecker">Joschka Boedecker</a><sup>1</sup>,
               </span>
@@ -225,10 +225,12 @@
               applied in robotics to address the curse of dimensionality when learning from high-dimensional data,
               the inherent reflectional and rotational symmetry of robot structures has not been adequately explored.
               Drawing inspiration from cooperative multi-agent reinforcement learning, we introduce novel network
-              structures for deep learning algorithms that explicitly capture this geometric regularity. Moreover,
-              we investigate the relationship between the geometric prior and the concept of Parameter Sharing in
-              multi-agent reinforcement learning. Through experiments conducted on various challenging continuous control
-              tasks, we demonstrate the significant potential of the proposed geometric regularity in enhancing robot learning capabilities.
+              structures for single-agent control learning that explicitly capture these symmetries. Moreover, we
+              investigate the relationship between the geometric prior and the concept of Parameter Sharing in
+              multi-agent reinforcement learning. Last but not the least, we implement the proposed framework in
+              online and offline learning methods to demonstrate its ease of use. Through experiments conducted on
+              various challenging continuous control tasks on simulators and real robots, we highlight the significant
+              potential of the proposed geometric regularity in enhancing robot learning capabilities.
             </p>
           </div>
         </div>
@@ -304,8 +306,8 @@
                     challenging locomotion tasks while showing naturalistic gaits.
                   </p>
                 </div>
+                <p>Humanoid run on tightrope</p>
                 <div class="columns is-vcentered interpolation-panel">
-                  <p>Humanoid run on tightrope     </p>
                   <div class="column  has-text-centered">
                     <video autoplay controls muted loop playsinline height="100%">
                       <source src="static/images/HumanoidBB-masa-w.mp4" type="video/mp4">
@@ -320,9 +322,8 @@
                   </div>
                 </div>
 
-
+                <p>Quadruped walk on balance beam</p>
                 <div class="columns is-vcentered interpolation-panel">
-                  <p>Quadruped walk on balance beam</p>
                   <div class="column  has-text-centered">
                     <video autoplay controls muted loop playsinline height="100%">
                       <source src="static/images/A1BB-masa-w.mp4" type="video/mp4">
@@ -351,8 +352,8 @@
                   </p>
                 </div>
 
+                <p>Humanoid dribble</p>
                 <div class="columns is-vcentered interpolation-panel">
-                  <p>Humanoid dribble              </p>
                   <div class="column  has-text-centered">
                     <video autoplay controls muted loop playsinline height="100%">
                       <source src="static/images/HumanoidFootball-masa-w.mp4" type="video/mp4">
@@ -367,8 +368,8 @@
                   </div>
                 </div>
 
+                <p>Ant do acrobatic</p>
                 <div class="columns is-vcentered interpolation-panel">
-                  <p>Ant do acrobatic              </p>
                   <div class="column  has-text-centered">
                     <video autoplay controls muted loop playsinline height="100%">
                       <source src="static/images/AntonBall-masa-w.mp4" type="video/mp4">

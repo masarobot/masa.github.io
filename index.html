@@ -296,7 +296,11 @@
             <!-- Animation. -->
             <div class="columns is-centered">
               <div class="column is-full-width">
-                <h2 class="title is-3">Experiment</h2>
+                <h2 class="title is-3">Experiments with Simulator and Real Robots</h2>
+                <p>
+                  We have applied our method Multi-Agent with Symmetry Augmentation (MASA) to both on-line and off-line learning algorithms with simulation and real robots.
+                  The experiments demonstrate superior effectiveness of MASA.
+                <p>
 
                 <!-- Interpolating. -->
                 <h3 class="title is-4">Challenging Locomotion Tasks</h3>
@@ -352,7 +356,7 @@
                   </p>
                 </div>
 
-                <p>Humanoid dribble</p>
+                <p>Humanoid dribble (SA video is not a still image)</p>
                 <div class="columns is-vcentered interpolation-panel">
                   <div class="column  has-text-centered">
                     <video autoplay controls muted loop playsinline height="100%">
@@ -368,7 +372,7 @@
                   </div>
                 </div>
 
-                <p>Ant do acrobatic</p>
+                <p>Ant performing acrobatics (MASA video is not a still image)</p>
                 <div class="columns is-vcentered interpolation-panel">
                   <div class="column  has-text-centered">
                     <video autoplay controls muted loop playsinline height="100%">
@@ -379,6 +383,22 @@
                   <div class="column  has-text-centered">
                     <video autoplay controls muted loop playsinline height="100%">
                       <source src="static/images/AntonBall-sa-w.mp4" type="video/mp4">
+                    </video>
+                    <p>SA</p>
+                  </div>
+                </div>
+
+                <p>TriFinger lifting cube to targeted 6d pose</p>
+                <div class="columns is-vcentered interpolation-panel">
+                  <div class="column  has-text-centered">
+                    <video autoplay controls muted loop playsinline height="100%">
+                      <source src="static/images/real_masa.mp4" type="video/mp4">
+                    </video>
+                    <p>MASA</p>
+                  </div>
+                  <div class="column  has-text-centered">
+                    <video autoplay controls muted loop playsinline height="100%">
+                      <source src="static/images/real_sa.mp4" type="video/mp4">
                     </video>
                     <p>SA</p>
                   </div>
